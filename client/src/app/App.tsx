@@ -16,7 +16,11 @@ function App() {
             });
     }, []);
 
-    return <p className="text-danger-5">{message}</p>;
+    return (
+        <div className="bg-primary-5">
+            <p className="tw-text-primary-1 tw-font-bold">{message}</p>
+        </div>
+    );
 }
 
 export default App;

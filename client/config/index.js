@@ -1,4 +1,6 @@
-export * from './tailwindcss/colors';
-export * from './tailwindcss/fonts';
-export * from './tailwindcss/screens';
-export * from './tailwindcss/opacity';
+import colors from './tailwindcss/colors';
+import { fontFamily, fontSize } from './tailwindcss/fonts';
+import { screens } from './tailwindcss/screens';
+import { opacity } from './tailwindcss/opacity';
+
+export { colors, fontFamily, fontSize, screens, opacity };
